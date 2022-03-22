@@ -1,30 +1,98 @@
+/* MAIN */
 main{
   width: 100%;
   height: calc(100vh - 80px);
   background-color: #141922;
+
 }
 
-.left{
-  width: 150px;
+/* MAIN LEFT */
+/* LEFT-UP */
+main .main-left{
+  width: 170px;
   height: 100%;
+  padding: 10px;
   background-color: black;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.right{
-  width: calc(100% -150px);
+main .main-left .up{
+  flex-direction: column;
+}
+
+main .main-left .up .logo{
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+main .main-left .up .direction{
+  margin-bottom: 5px;
+}
+
+main .main-left .up .direction img{
+  width: 15%;
+  margin-right: 5px;
+}
+
+main .main-left .up .direction p{
+  align-self: center;
+  font-size: 13px;
+}
+
+main .main-left .up h3{
+  margin-top: 15px;
+}
+
+main .main-left .up .direction i{
+  font-size: 35px;
+  margin: 10px 5px 15px 0;
+}
+
+main .main-left .up .direction .play{
+  font-size: 15px;
+}
+
+main .main-left .up .list nav ul li{
+  list-style: none;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+/*/ LEFT-UP */
+
+/* LEFT-DOWN */
+main .main-left .down{
+  width: 100%;
+  height: 70px;
+  flex-direction: column;
+}
+/*/ LEFT-DOWN */
+/*/ MAIN LEFT */
+
+
+/* MAIN RIGHT */
+.main-right{
+  width: calc(100% -170px);
   height: 100%;
   flex-direction: column;
 }
 
-.top{
-  width: calc(100% - 150px);
-  height: 50px;
-  background-color: rgba(0, 0, 0, .7);
+.right-top{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
+  justify-content: flex-end;
 }
 
-.albums{
-  width: calc(100% - 150px);
+.right-center{
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
 }
+/*/ MAIN RIGHT */
+/*/ MAIN */
 
 
 footer{

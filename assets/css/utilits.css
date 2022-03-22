@@ -1,3 +1,7 @@
 .b-flex{
   display: flex;
 }
+
+.opac{
+  opacity: .6;
+}

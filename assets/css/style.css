@@ -11,14 +11,14 @@ main{
 main .main-left{
   width: 170px;
   height: 100%;
-  padding: 10px;
+  padding: 15px;
   background-color: black;
-  flex-direction: column;
   justify-content: space-between;
 }
 
 main .main-left .up{
-  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 75px);
 }
 
 main .main-left .up .logo{
@@ -26,46 +26,65 @@ main .main-left .up .logo{
   width: 80%;
 }
 
-main .main-left .up .direction{
-  margin-bottom: 5px;
+main .main-left .direction{
+  margin-bottom: 10px;
+  opacity: .7;
 }
 
-main .main-left .up .direction img{
+main .main-left .direction img{
   width: 15%;
   margin-right: 5px;
 }
 
-main .main-left .up .direction p{
+main .main-left .direction a{
   align-self: center;
   font-size: 13px;
 }
 
-main .main-left .up h3{
+main .main-left .up h4{
   margin-top: 15px;
 }
 
 main .main-left .up .direction i{
   font-size: 35px;
-  margin: 10px 5px 15px 0;
+  margin: 10px 10px 15px 0;
 }
 
 main .main-left .up .direction .play{
   font-size: 15px;
 }
 
-main .main-left .up .list nav ul li{
-  list-style: none;
+main .main-left .up .direction nav ul li{
   font-size: 13px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 /*/ LEFT-UP */
 
 /* LEFT-DOWN */
 main .main-left .down{
   width: 100%;
-  height: 70px;
-  flex-direction: column;
+  height: 75px;
 }
+
+main .main-left .down .direction i{
+  margin: 10px 10px 5px 0;
+}
+
+main .main-left .down .profile{
+  margin-top: 15px;
+}
+main .main-left .down .profile img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: #808080;
+}
+
+main .main-left .down .profile h5{
+  place-self: center;
+}
+
 /*/ LEFT-DOWN */
 /*/ MAIN LEFT */
 

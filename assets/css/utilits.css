@@ -2,6 +2,6 @@
   display: flex;
 }
 
-.opac{
-  opacity: .6;
+.column{
+  flex-direction: column;
 }

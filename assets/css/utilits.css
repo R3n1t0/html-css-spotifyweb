@@ -13,3 +13,7 @@
 .wrap{
   flex-wrap: wrap;
 }
+
+.circle{
+  border-radius: 50%;
+}

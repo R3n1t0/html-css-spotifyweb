@@ -1,7 +1,7 @@
 /* MAIN */
 main{
   width: 100%;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 75px);
   background-color: #141922;
 
 }
@@ -9,7 +9,7 @@ main{
 /* MAIN LEFT */
 /* LEFT-UP */
 main .main-left{
-  width: 170px;
+  width: 180px;
   height: 100%;
   padding: 15px;
   background-color: black;
@@ -19,6 +19,7 @@ main .main-left{
 main .main-left .up{
   width: 100%;
   height: calc(100% - 75px);
+  overflow: hidden;
 }
 
 main .main-left .up .logo{
@@ -26,9 +27,17 @@ main .main-left .up .logo{
   width: 80%;
 }
 
+main .main-left .up .logo .logo-small{
+  display: none;
+}
+
 main .main-left .direction{
-  margin-bottom: 10px;
-  opacity: .7;
+  margin-bottom: 5px;
+  opacity: 0.7;
+}
+
+main .main-left .direction a:hover{
+  opacity: 1;
 }
 
 main .main-left .direction img{
@@ -47,7 +56,7 @@ main .main-left .up h4{
 
 main .main-left .up .direction i{
   font-size: 35px;
-  margin: 10px 10px 15px 0;
+  margin: 10px 10px 10px 0;
 }
 
 main .main-left .up .direction .play{
@@ -67,7 +76,7 @@ main .main-left .down{
 }
 
 main .main-left .down .direction i{
-  margin: 10px 10px 5px 0;
+  margin: 10px 10px 10px 0;
 }
 
 main .main-left .down .profile{
@@ -84,39 +93,59 @@ main .main-left .down .profile img{
 main .main-left .down .profile h5{
   place-self: center;
 }
-
 /*/ LEFT-DOWN */
 /*/ MAIN LEFT */
 
-
 /* MAIN RIGHT */
-.main-right{
-  width: calc(100% -170px);
+main .main-right{
+  width: calc(100% - 180px);
   height: 100%;
-  flex-direction: column;
 }
 
-.right-top{
+/* RIGHT-TOP */
+main .main-right .right-top{
   position: fixed;
-  width: 100%;
-  height: 60px;
+  width: calc(100% - 180px);
+  height: 75px;
   background-color: rgba(0, 0, 0, .4);
-  color: white;
   justify-content: flex-end;
+  z-index: 999;
 }
 
-.right-center{
+main .main-right .right-top a{
+  align-self: center;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 15px;
+}
+
+main .main-right .right-top a:hover{
+  transform: scale(1.1);
+}
+/*/ RIGHT-TOP */
+
+/* RIGHT-CENTER */
+main .main-right .right-center{
   width: 100%;
   height: 100%;
-  margin-top: 60px;
+  margin-top: 90px;
 }
+
+main .main-right .right-center
+
+
+/*/ RIGHT-CENTER */
 /*/ MAIN RIGHT */
 /*/ MAIN */
 
 
+/* FOOTER */
 footer{
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 75px;
   background-color: #282828;
 }
+
+/*/ FOOTER */

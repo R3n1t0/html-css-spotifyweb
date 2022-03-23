@@ -5,6 +5,10 @@
   color: white;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 li{
   list-style: none;
 }
@@ -12,3 +16,4 @@ li{
 a{
   text-decoration: none;
 }
+

@@ -144,7 +144,7 @@ main .main-right .right-center .menu ul{
 
 main .main-right .right-center .menu ul li a{
   font-size: 12px;
-  padding: 10px;
+  margin: 10px;
 }
 
 
@@ -226,10 +226,11 @@ footer .footer-center{
 }
 
 footer .footer-center .action{
-  width: 40%;
-  justify-content: space-around;
+  width: 50%;
+  justify-content: space-between;
   margin-top: 15px;
   text-align: center;
+  margin-bottom: 7px;
 }
 
 footer .footer-center .action a .fa-solid{
@@ -238,6 +239,19 @@ footer .footer-center .action a .fa-solid{
 
 footer .footer-center .action a .fa-regular{
   font-size: 25px;
+}
+
+footer .footer-center .progress-container{
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-center .progress-container .progress-bar{
+  width: 80%;
+  height: 4px;
+  background-color: #5a5a5a;
+  border-radius: 10px;
 }
 /*/ FOOTER CENTER */
 

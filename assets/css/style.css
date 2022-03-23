@@ -132,7 +132,25 @@ main .main-right .right-center{
   margin-top: 90px;
 }
 
-main .main-right .right-center
+main .main-right .right-center .menu{
+  margin: 0px 10px ;
+  justify-content: center;
+  text-align: center;
+
+}
+
+main .main-right .right-center .menu ul{
+  justify-content: center;
+}
+
+main .main-right .right-center .menu ul li a{
+  font-size: 12px;
+  padding: 10px;
+}
+
+main .main-right .right-center h2{
+  margin: 15px;
+}
 
 
 /*/ RIGHT-CENTER */

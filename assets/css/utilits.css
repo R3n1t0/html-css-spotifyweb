@@ -9,3 +9,7 @@
 .over{
   overflow: auto;
 }
+
+.wrap{
+  flex-wrap: wrap;
+}

@@ -64,7 +64,7 @@ main .main-left .up .direction .play{
 }
 
 main .main-left .up .direction nav ul li{
-  font-size: 13px;
+  font-size: 10px;
   margin-bottom: 10px;
 }
 /*/ LEFT-UP */
@@ -136,7 +136,6 @@ main .main-right .right-center .menu{
   margin: 0px 10px ;
   justify-content: center;
   text-align: center;
-
 }
 
 main .main-right .right-center .menu ul{
@@ -148,10 +147,48 @@ main .main-right .right-center .menu ul li a{
   padding: 10px;
 }
 
+
 main .main-right .right-center h2{
-  margin: 15px;
+  margin: 15px 0;
 }
 
+main .main-right .right-center .recently{
+  justify-content: space-between;
+  margin: 20px;
+}
+
+main .main-right .right-center .artist{
+  width: 15%;
+  text-align: center;
+}
+
+main .main-right .right-center .artist h5{
+  margin: 10px;
+}
+
+main .main-right .right-center .artist p{
+  font-size: 10px;
+}
+
+main .main-right .right-center .albums{
+  margin: 20px;
+}
+
+main .main-right .right-center .albums .artist{
+  margin-right: 25px;
+}
+
+main .main-right .right-center .title{
+  margin: 20px;
+}
+
+main .main-right .right-center .title p{
+  font-size: 13px;
+}
+
+.circle{
+  border-radius: 50%;
+}
 
 /*/ RIGHT-CENTER */
 /*/ MAIN RIGHT */

@@ -33,11 +33,7 @@ main .main-left .up .logo .logo-small{
 
 main .main-left .direction{
   margin-bottom: 5px;
-  opacity: 0.7;
-}
 
-main .main-left .direction a:hover{
-  opacity: 1;
 }
 
 main .main-left .direction img{
@@ -54,9 +50,14 @@ main .main-left .up h4{
   margin-top: 15px;
 }
 
-main .main-left .up .direction i{
+main .main-left .direction i{
   font-size: 35px;
   margin: 10px 10px 10px 0;
+  color: #787878;
+}
+
+main .main-left .direction i:hover{
+  color: white;
 }
 
 main .main-left .up .direction .play{
@@ -76,6 +77,7 @@ main .main-left .down{
 }
 
 main .main-left .down .direction i{
+  font-size: 15px;
   margin: 10px 10px 10px 0;
 }
 
@@ -118,6 +120,7 @@ main .main-right .right-top a{
   border-radius: 20px;
   padding: 5px 10px;
   margin-right: 15px;
+  color: white;
 }
 
 main .main-right .right-top a:hover{
@@ -146,21 +149,59 @@ main .main-right .right-center .menu ul li a{
   font-size: 12px;
   margin: 10px;
 }
-
+.underscore{
+  position: relative;
+}
+main .main-right .right-center .menu ul li .border-green{
+  width: 30%;
+  height: 3px;
+  border-bottom: 2px solid #b5ff30;
+  position: absolute;
+  right: 35%;
+  
+}
 
 main .main-right .right-center h2{
-  margin: 15px 0;
+  margin: 30px 0;
 }
 
 main .main-right .right-center .recently{
-  justify-content: space-between;
   margin: 20px;
 }
 
 main .main-right .right-center .artist{
-  width: 15%;
+  width: 16%;
   text-align: center;
+  margin-right: 10px;
 }
+
+main .main-right .right-center .artist .image{
+  position: relative;
+}
+
+main .main-right .right-center .artist .image i{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+main .main-right .right-center .artist .image:hover i{
+  display: block;
+}
+
+main .main-right .right-center .artist .image img{
+  width: 100%;
+  height: 100%;
+}
+
+
+main .main-right .right-center .artist img:hover{
+  filter: brightness(50%);
+}
+
 
 main .main-right .right-center .artist h5{
   margin: 10px;
@@ -172,10 +213,6 @@ main .main-right .right-center .artist p{
 
 main .main-right .right-center .albums{
   margin: 20px;
-}
-
-main .main-right .right-center .albums .artist{
-  margin-right: 25px;
 }
 
 main .main-right .right-center .title{
@@ -216,6 +253,20 @@ footer .footer-left .picture{
 footer .footer-left .track-name p{
   font-size: 10px;
   margin-right: 40px;
+  margin-top: 5px;
+  color: #787878;
+}
+
+footer .footer-left .track-name p:hover{
+  color: white;
+}
+
+footer .footer-left .folder i{
+  color: #787878;
+}
+
+footer .footer-left .folder i:hover{
+  color: white;
 }
 /*/ FOOTER LEFT */
 
@@ -256,17 +307,39 @@ footer .footer-center .progress-container .progress-bar{
   height: 4px;
   background-color: #5a5a5a;
   border-radius: 10px;
+  margin: 0 10px;
 }
 
-footer .footer-center .progress-container .progress-bar .progress{
-  width: 30%;
+footer .footer-center .progress-bar .progress{
+  width: 25%;
   height: 4px;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #c1c1c1;
   border-radius: 10px;
 }
 
+footer .progress-bar .progress .point{
+  display: none;
+  width: 15px;
+  height: 15px;
+  background-color: #c1c1c1;
+  border-radius: 50%;
+}
 
+footer .progress-bar:hover .progress{
+  background-color: #b5ff30;
+}
+
+footer  .progress-bar:hover .point{
+  display: block;
+}
+
+/*/ FOOTER CENTER */
+
+/* FOOTER RIGHT */
 footer .footer-right{
+  width: 170px;
   align-items: center;
   justify-content: space-around;
   margin-right: 10px;
@@ -274,6 +347,8 @@ footer .footer-right{
 
 footer .footer-right i{
   font-size: 12px;
+  padding: 5px;
+
 }
 
 footer .footer-right .progress-bar{
@@ -283,18 +358,13 @@ footer .footer-right .progress-bar{
   border-radius: 10px;
 }
 
-footer .footer-right .progress-bar .progress{
-  width: 30%;
+footer .progress-bar .progress{
+  width: 25%;
   height: 4px;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #c1c1c1;
   border-radius: 10px;
-}
-
-/*/ FOOTER CENTER */
-
-/* FOOTER RIGHT */
-footer .footer-right{
-  width: 170px;
 }
 /* /FOOTER RIGHT */
 /*/ FOOTER */

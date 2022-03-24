@@ -39,10 +39,10 @@
   .logo-big{
     display: none;
   }
-  .logo-small{
+
+  main .main-left .up .logo .logo-small{
     display: block;
   }
-
 
   main .main-left .up a, h4, h5, hr{
     display: none;

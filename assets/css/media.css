@@ -3,6 +3,7 @@
   main .main-right .right-center .recently{
     flex-wrap: wrap;
   }
+
   main .main-right .right-center .artist{
     width: calc(25% - 10px );
     
@@ -17,7 +18,23 @@
   }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
+
+  main .main-left{
+    width: 55px;
+  }
+
+  main .main-right{
+    width: calc(100% - 55px);
+  }
+
+  main .main-right .right-top{
+    width: calc(100% - 55px);
+  }
+
+  main .main-left .up .logo{
+    margin-bottom: 10px;
+  }
 
   .logo-big{
     display: none;
@@ -28,6 +45,10 @@
 
 
   main .main-left .up a, h4, h5, hr{
+    display: none;
+  }
+
+  .install{
     display: none;
   }
 }

@@ -29,6 +29,8 @@ main .main-left .up .logo{
 
 main .main-left .up .logo .logo-small{
   display: none;
+  color: white;
+  width: 25px;
 }
 
 main .main-left .direction{
@@ -37,7 +39,7 @@ main .main-left .direction{
 }
 
 main .main-left .direction img{
-  width: 15%;
+  width: 25px;
   margin-right: 5px;
 }
 

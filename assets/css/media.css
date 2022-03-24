@@ -4,19 +4,31 @@
     flex-wrap: wrap;
   }
   main .main-right .right-center .artist{
-    width: 22%;
+    width: calc(25% - 10px );
     
   }
 }
 
 @media screen and (max-width: 560px){
 
-  main .main-right .right-center .recently{
-    flex-wrap: nowrap;
-  }
   main .main-right .right-center .artist{
-    width: 46.6%;
+    width: calc(50% - 10px);
     
+  }
+}
+
+@media screen and (max-width: 420px){
+
+  .logo-big{
+    display: none;
+  }
+  .logo-small{
+    display: block;
+  }
+
+
+  main .main-left .up a, h4, h5, hr{
+    display: none;
   }
 }
 

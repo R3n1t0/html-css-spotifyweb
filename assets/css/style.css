@@ -284,6 +284,10 @@ footer .footer-center .action{
   margin-bottom: 5px;
 }
 
+footer .footer-center .action a{
+  margin: 3px;
+}
+
 footer .footer-center .action a .fa-solid{
   font-size: 13px;
 }

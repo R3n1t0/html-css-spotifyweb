@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px){
+
+  main .main-right .right-center .recently{
+    flex-wrap: wrap;
+  }
+  main .main-right .right-center .artist{
+    width: 22%;
+    
+  }
+}
+
+@media screen and (max-width: 560px){
+
+  main .main-right .right-center .recently{
+    flex-wrap: nowrap;
+  }
+  main .main-right .right-center .artist{
+    width: 46.6%;
+    
+  }
+}
+

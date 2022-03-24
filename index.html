@@ -103,7 +103,11 @@
 
         <nav class="menu b-flex">
           <ul class="b-flex wrap">
-            <li><a href="#">IN EVIDENZA</a></li>
+            <li class="underscore">
+              <a href="#">IN EVIDENZA</a>
+              <div class="border-green"></div>
+            </li>
+            
             <li><a href="#">PODCAST</a></li>
             <li><a href="#">CLASSIFICHE</a></li>
             <li><a href="#">GENNERI E MOOD</a></li>
@@ -120,32 +124,50 @@
 
         <div class="recently b-flex">
           <div class="artist b-flex column">
-            <img src="./assets/img/metal_lifting.jpg" alt="metal_lifting">
+            <div class="image b-flex">
+              <img src="./assets/img/metal_lifting.jpg" alt="metal_lifting">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>Heavy Metal</h5>
             <p>Subtitle</p>
           </div>
           <div class="artist b-flex column">
-            <img src="./assets/img/stranger.jpeg" alt="stranger">
+            <div class="image b-flex">
+              <img src="./assets/img/stranger.jpeg" alt="stranger">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>Stranger Thing Vol.(a Netflix Original Series Soundtrack)</h5>
             <p>Kyle Dixon & Michael Stein</p>
           </div>
           <div class="artist b-flex column">
-            <img src="./assets/img/aquietplace.jpeg" alt="aquietplace">
+            <div class="image b-flex">
+              <img src="./assets/img/aquietplace.jpeg" alt="aquiteplace">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>A quiet place</h5>
             <p>Subtitle</p>
           </div>
           <div class="artist b-flex column">
-            <img src="./assets/img/split.jpeg" alt="split">
+            <div class="image b-flex">
+              <img src="./assets/img/split.jpeg" alt="split">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>Split</h5>
             <p>Subtitle</p>
           </div>
           <div class="artist b-flex column">
-            <img src="./assets/img/cure.jpeg" alt="cure">
+            <div class="image b-flex">
+              <img src="./assets/img/cure.jpeg" alt="cure">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>A cure for wellness</h5>
             <p>Subtitle</p>
           </div>
           <div class="artist b-flex column">
-            <img src="./assets/img/sinister.jpeg" alt="sinister">
+            <div class="image b-flex">
+              <img src="./assets/img/sinister.jpeg" alt="sinister">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>Sinister</h5>
             <p>Subtitle</p>
           </div>
@@ -162,11 +184,17 @@
 
         <div class="albums b-flex">
           <div class="artist b-flex column">
-            <img src="./assets/img/radar.jpeg" alt="cure">
+            <div class="image b-flex">
+              <img src="./assets/img/radar.jpeg" alt="radar">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>Release Radar</h5>
           </div>
           <div class="artist b-flex column">
-            <img src="./assets/img/mixdaily.jpeg" alt="sinister">
+            <div class="image b-flex">
+              <img src="./assets/img/mixdaily.jpeg" alt="dailymix">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>Daily Mix 1</h5>
           </div>
         </div>
@@ -182,12 +210,18 @@
 
         <div class="albums b-flex">
           <div class="artist b-flex column">
-            <img class="circle" src="./assets/img/einaudi.jpeg" alt="cure">
+            <div class="image b-flex">
+              <img class="circle" src="./assets/img/einaudi.jpeg" alt="Einaudi">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
             <h5>Einaudi</h5>
           </div>
           <div class="artist b-flex column">
-            <img class="circle" src="./assets/img/youg.jpeg" alt="sinister">
-            <h5>Youg</h5>
+            <div class="image b-flex">
+              <img class="circle" src="./assets/img/youg.jpeg" alt="Young">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
+            <h5>Young</h5>
           </div>
         </div>
         <!--/ Popolari -->
@@ -236,8 +270,8 @@
       <div class="progress-container b-flex">
         <span>0:25</span>
         <div class="progress-bar">
-          <div class="progress">
-
+          <div class="progress b-flex">
+            <a class="point" href="#"></a>
           </div>
         </div>
         <span>4:35</span>
@@ -250,8 +284,8 @@
       <i class="fa-solid fa-tv"></i>
       <i class="fa-solid fa-volume-high"></i>
       <div class="progress-bar">
-        <div class="progress">
-
+        <div class="progress b-flex">
+          <a class="point" href="#"></a>
         </div>
       </div>
 
@@ -259,6 +293,7 @@
 
   </footer>
   <!--/ Footer -->
+
 </body>
 
 </html>
